@@ -1,0 +1,16 @@
+def order_food(item, quantity, price, location):
+    total = quantity * price
+
+    print("Food Item:", item)
+    print("Quantity:", quantity)
+    print("Price per Item:", price)
+    print("Delivery Location:", location)
+    print("Total Amount:", total)
+
+
+order_food(
+    item="Pizza",
+    quantity=2,
+    price=250,
+    location="Chennai"
+)
